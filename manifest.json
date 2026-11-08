@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "io.github.hunterseeker101.alienfx",
+  "name": "AlienFX Lighting",
+  "version": "1.1.0",
+  "author": "HunterSeeker101",
+  "license": "MIT",
+  "description": "AlienFX RGB zone and brightness control for Alienware Aurora desktops (requires the alienfx-lightd companion daemon + alienfx-gui client)",
+  "kinds": [
+    "bar-widget"
+  ],
+  "entryPoints": {
+    "barWidget": "Panel.qml"
+  },
+  "barWidget": {
+    "displayName": "AlienFX",
+    "description": "AlienFX RGB zone and brightness control",
+    "category": "System",
+    "allowMultiple": false
+  }
+}
